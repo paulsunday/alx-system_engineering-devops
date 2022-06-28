@@ -6,3 +6,4 @@ Assigning new name to a variable
 Writing a global variable 
 Every addition to true knowledge is an addition to human power
 Wriing a script that prints the result of POWER divided by DIVIDE
+Writing a script that displays the result of BREATH to the power LOVE
