@@ -13,3 +13,4 @@ wrote a script that prints a number with two decimal places, followed by a new l
 wrote a script that converts a number from base 10 to base 16.
 wrote a script that encodes and decodes text using the rot13 encryption. Assume ASCII.
 wrote a script that prints every other line from the input, starting with the first line.
+wrote a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
