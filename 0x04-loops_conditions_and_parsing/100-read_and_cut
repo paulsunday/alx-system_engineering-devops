@@ -1,12 +1,6 @@
 #!/usr/bin/env bash
-# displays the content of a file
+# displays the content of a directory
 
-for LINE in $(cat /etc/passwd); do
-	# extract the required field
-	USERNAME=$(echo "$LINE" | cut -d':' -f1)
-	GROUPID=$(echo "$LINE" | cut -d':' -f4)
-	SHELL=$(echo "$LINE" | cut -d':' -f7)
-
-	# display the extracted files
-	echo "$USERNAME:$GROUPID:$SHELL"
-done
+while IFS= read -r LINE; do
+	echo "$LINE" | cut -d';' -f1,4,7
+done < /etc/passwd
